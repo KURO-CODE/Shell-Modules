@@ -7,3 +7,4 @@ Shell code modules.
 
 ### Check
 1. [ChkRoot](https://github.com/KURO-CODE/Modules/tree/master/Check/Session) (Check Root session)
+2. [ChkDist](https://github.com/KURO-CODE/Modules/tree/master/Check/Distro) (Check Distro)
