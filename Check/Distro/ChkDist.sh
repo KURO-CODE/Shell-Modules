@@ -10,4 +10,4 @@
 
 Vname=`lsb_release -a`
 clear
-echo $Vname | grep ID | awk '{print $3,$6,$7,$11}'
+echo $Vname | grep ID | awk '{print $3,$6,$7}'
