@@ -14,7 +14,7 @@
   		echo -e " [X]...You are Root!"
   		sleep 1.2
 	else
-		echo -e " [X]...You are not Root! \n\n Use: sudo ./ChkDist.sh\n"
+		echo -e " [X]...You are not Root! \n\n Use: sudo ./ChkRoot.sh\n"
  		sleep 1
     		echo -e " [X]...Close" 
     		sleep 1
