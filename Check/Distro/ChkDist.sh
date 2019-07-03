@@ -37,7 +37,7 @@ case $Vname in
 	;;
 
 	"")
-		Vname0=`cat /etc/redhat-release |awk '{print $1}'`
+		Vname0=`cat /etc/redhat-release`
 		echo -e "$Vname0"
 		sleep 3
 #         *** example ***
