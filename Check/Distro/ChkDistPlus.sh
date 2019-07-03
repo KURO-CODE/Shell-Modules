@@ -34,4 +34,12 @@ case $Vname in
 #   *** example ***
 #		...
 	;;
+
+	"")
+		Vname=`cat /etc/redhat-release |awk '{print $1}'`
+		echo -e "$Vname"
+		sleep 3
+#    *** example ***
+#		...
+	;;
 	esac 
