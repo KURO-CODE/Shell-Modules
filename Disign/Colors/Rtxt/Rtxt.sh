@@ -4,7 +4,7 @@
 #description    :Rainbow colors Text.
 #author         :KURO-CODE
 #date           :04/07/2019    
-#usage          :./colorscale.sh
+#usage          :./Rtxt.sh
 
 for c in {0..255} ; do
     clear
