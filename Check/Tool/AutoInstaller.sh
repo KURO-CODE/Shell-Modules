@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Auto Installer 
-# Tool cheker + auto install
+# Tool checker + auto install
 # Author: Kuro-Code
 # Date: 09/08/2019
 
