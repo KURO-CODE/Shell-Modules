@@ -40,7 +40,7 @@ function check_Dep() {
 		echo -e "-->> Installation, please wait...\n"
 		echo $Tool_F
 		sleep 3
-    apt install $Tool_F -y &&
+		apt install $Tool_F -y &&
 		rm -f Add.txt
 		sleep 10
 		check_Dep
