@@ -10,6 +10,7 @@ Shell code modules.
 2. [ChkDist](https://github.com/KURO-CODE/Modules/tree/master/Check/Distro) (Check Distro)
 3. [ToolChecker](https://github.com/KURO-CODE/Modules/blob/master/Check/Tool/Toolckecker.sh) (Tool Checker)
 4. [AutoInstaller](https://github.com/KURO-CODE/Modules/blob/master/Check/Tool/AutoInstaller.sh) (Auto installer)
+4. [CheckLang](https://github.com/KURO-CODE/Modules/blob/master/Check/Tool/CheckLang.sh) (check language)
 
 ### Disign
 1. [Rtxt](https://github.com/KURO-CODE/Modules/tree/master/Disign/Colors/Rtxt) (Rimbow text)
