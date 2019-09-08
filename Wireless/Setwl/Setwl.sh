@@ -20,8 +20,6 @@ II=`$B |grep $I`
         echo -e "OK, Device is $DEVICE"
 	else
         clear
-#        LOGO
         echo -e "Error, device not found..."
         sleep 4
-#        Main
 fi
