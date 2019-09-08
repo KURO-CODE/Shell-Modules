@@ -13,3 +13,6 @@ Shell code modules.
 
 ### Disign
 1. [Rtxt](https://github.com/KURO-CODE/Modules/tree/master/Disign/Colors/Rtxt) (Rimbow text)
+
+### Option
+1. [SetLang](https://github.com/KURO-CODE/Modules/blob/master/SetLang/Setlang.sh) (Module for choice language)
