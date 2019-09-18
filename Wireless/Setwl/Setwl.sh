@@ -16,10 +16,10 @@ DEVICE=`echo $A |sed 's/ //g' |cut -f${SETDEVICE} -d :`
 I="$DEVICE"
 II=`$B |grep $I`
 	if [ "$I" != "$II" ]; then
-        clear
-        echo -e "OK, Device is $DEVICE"
+        	clear
+        	echo -e "OK, Device is $DEVICE"
 	else
-        clear
-        echo -e "Error, device not found..."
-        sleep 4
-fi
+        	clear
+        	echo -e "Error, device not found..."
+        	sleep 4
+	fi
