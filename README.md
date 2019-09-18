@@ -17,3 +17,5 @@ Shell code modules.
 
 ### Option
 1. [SetLang](https://github.com/KURO-CODE/Modules/blob/master/SetLang/Setlang.sh) (Module for choice language)
+
+### Animated
