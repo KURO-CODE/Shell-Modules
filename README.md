@@ -19,3 +19,4 @@ Shell code modules.
 1. [SetLang](https://github.com/KURO-CODE/Modules/blob/master/SetLang/Setlang.sh) (Module for choice language)
 
 ### Animated
+1. [Blinking](https://github.com/KURO-CODE/Shell-Modules/blob/master/Animated/Blinking.sh) (flashing animation)
