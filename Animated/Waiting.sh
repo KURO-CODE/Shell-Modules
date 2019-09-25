@@ -21,41 +21,41 @@ NP="aircrack-ng"
 Loading() {
 	A=`dpkg --status aircrack-ng`
 	B=`echo $A |awk '{print $6}'`
-    count=0
-    while (( "$count" < "5" )); do
-    	if [ "$count" -eq "0" ]; then
-    		A=`dpkg --status $NP`
-    		B=`echo $A |awk '{print $6}'`
+	count=0
+	while (( "$count" < "5" )); do
+		if [ "$count" -eq "0" ]; then
+    			A=`dpkg --status $NP`
+    			B=`echo $A |awk '{print $6}'`
+    			clear
+    		fi
+    		echo -e "\r$W[${R}*   ${W}] $Wait_Msg"
+    		sleep 0.2
     		clear
+    		echo -e "\r$W[${R} *  ${W}] $Wait_Msg"
+    		sleep 0.2
+    		clear
+    		echo -e "\r$W[${R}  * ${W}] $Wait_Msg"
+    		sleep 0.2
+    		clear
+    		echo -e "\r$W[${R}   *${W}] $Wait_Msg"
+    		sleep 0.2
+    		clear
+    		count=$(($count+1))
+    	done
+    	if [ "$count" -eq "5" ]; then
+    		if [ "$B" = "installed" ];then
+    			clear
+    			echo -e "$W[${G}+${W}] $NameProg...$W[${G}$B$W]"
+    			sleep 3
+    			clear
+    			exit
+    		else
+    			clear
+    			echo -e "$W[${R}x${W}] $NameProg...$W[${R}Not installed$W]"
+    			sleep 3
+    			clear
+    			exit
+    		fi
     	fi
-    	echo -e "\r$W[${R}*   ${W}] $Wait_Msg"
-    	sleep 0.2
-    	clear
-    	echo -e "\r$W[${R} *  ${W}] $Wait_Msg"
-    	sleep 0.2
-    	clear
-    	echo -e "\r$W[${R}  * ${W}] $Wait_Msg"
-    	sleep 0.2
-    	clear
-    	echo -e "\r$W[${R}   *${W}] $Wait_Msg"
-    	sleep 0.2
-    	clear
-    	count=$(($count+1))
-    done
-    if [ "$count" -eq "5" ]; then
-    	if [ "$B" = "installed" ];then
-    		clear
-    		echo -e "$W[${G}+${W}] $NameProg...$W[${G}$B$W]"
-    		sleep 3
-    		clear
-    		exit
-    	else
-    		clear
-    		echo -e "$W[${R}x${W}] $NameProg...$W[${R}Not installed$W]"
-    		sleep 3
-    		clear
-    		exit
-    	fi
-    fi
 }
 Loading
