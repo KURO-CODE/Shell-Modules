@@ -20,3 +20,4 @@ Shell code modules.
 
 ### Animated
 1. [Blinking](https://github.com/KURO-CODE/Shell-Modules/blob/master/Animated/Blinking.sh) (flashing animation)
+2. [Waiting](https://github.com/KURO-CODE/Shell-Modules/blob/master/Animated/Waiting.sh) (Waiting bar)
