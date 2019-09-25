@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Simple Waiting bar demo
-#
+
 # Type: Demo
 # Dev: Shell
 # Date: 09/25/2019
