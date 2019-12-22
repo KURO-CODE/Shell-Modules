@@ -1,5 +1,8 @@
 # Modules
+![](https://img.shields.io/badge/Modules-Shell-green.svg)
+
 Shell code modules.
+
 ![shell-code.jpg](https://github.com/KURO-CODE/Modules/blob/master/shell-code.jpg)
 
 ### Box
