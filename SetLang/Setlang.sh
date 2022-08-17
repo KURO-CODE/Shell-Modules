@@ -68,7 +68,7 @@ function Select_Lang() {
 		2) FR; clear; echo -e " $Dial6"; clear; echo -e " $Dial7"; Select_Lang;;
 		3) ES; clear; echo -e " $Dial6"; clear; echo -e " $Dial7"; Select_Lang;;
 		0) clear; echo -e " $Dial7"; sleep 3; clear; exit;;
-		°) echo -e " $Dial8"; clear; Select_Lang;;
+		*) echo -e " $Dial8"; clear; Select_Lang;;
 	esac
 }
 #Check_Locale_Lang
